@@ -489,9 +489,10 @@
      padding: 10px;
      padding: 10px;
      appearance: none;
-     -webkit-appearance: none;
-     -moz-appearance: none;
+     -webkit-appearance: none !important;
+     -moz-appearance: none !important;
      border-radius: 0;
+     -webkit-border-radius:0; 
 }
 #footer 
 {
