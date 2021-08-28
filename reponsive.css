@@ -34,11 +34,7 @@
     #header-nav {
         display: none;
     }
-    #header 
-    {
-        justify-content: flex-start;
-        
-    }
+   
     .header-menu 
     {
         display: block;

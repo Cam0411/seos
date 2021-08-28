@@ -14,8 +14,7 @@
     bottom: 0;
     background:#212529 ;
     display: flex;
-    justify-content: center;
-    align-items: center;
+     align-items: center;
     flex: 1;
     z-index: 1;
 }
@@ -23,7 +22,7 @@
 {
     padding: 20px;
     position: absolute;
-    left: 10%;
+    left: 5%;
 
 }
 #header-nav 
