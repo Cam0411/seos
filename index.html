@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> SEOS </title> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reponsive.css">
+</head>
+<body>
+    <div id="header">
+       <div class="header--img"><img src="logo.png">  </div>
+     <ul id="header-nav">
+     <li><a href=""> Home </a></li>
+     <li><a href="">About</a></li>
+     <li><a href="">Services</a></li>
+     <li><a href="">Blog      </a>
+        <ul class="sub-nav">
+            <li><a href=""> Blog </a></li>
+            <li><a href="">Blog details</a></li>
+        </ul>
+    </li>
+     <li><a href="">page</a>
+        <ul class="sub-nav-2">
+            <li><a href=""> Element </a></li>
+        </ul>
+    </li>
+     <li><a href="">Contact</a></li>
+     <li class="number-box "> <div class="overlay"> +888.762.009 </div></li>
+     </ul>
+     <div class="header-menu"><i class=" menu fas fa-bars"></i></div>
+    </div>
+    <div id="slider">
+      
+    </div>
+    <div id="content">
+
+    </div>
+    <div id="footer">
+
+    </div>
+    <div class="modal">
+        <div class="modal-content">
+            <div class="modal-close">
+                <i class="fas fa-times"></i>
+            </div>
+            <ul id="header-menu">
+                <li><a href=""> Home </a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">Blog      </a>
+                   <ul class="sub-nav">
+                       <li><a href=""> Blog </a></li>
+                       <li><a href="">Blog details</a></li>
+                   </ul>
+               </li>
+                <li><a href="">page</a>
+                   <ul class="sub-nav-2">
+                       <li><a href=""> Element </a></li>
+                   </ul>
+               </li>
+                <li><a href="">Contact</a></li>
+                <li class="number-box number-box-2"> <div class="overlay"> +888.762.009 </div></li>
+                </ul>
+               
+               </div>
+        </div>
+    </div>
+    <div class="to-top">
+       <a href="#slider">
+        <i class="fas fa-rocket"></i>
+       </a>
+    </div>
+    <script>
+        menus = document.querySelectorAll('.menu')
+        modal = document.querySelector('.modal')
+        modalClose = document.querySelector('.modal-close')
+        function showModal(){
+            modal.classList.add("open")
+        }
+        function hideModal(){
+            modal.classList.remove("open")
+        }
+        for (const menu of menus){
+            menu.addEventListener('click',showModal)
+        }
+            modalClose.addEventListener('click',hideModal)
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+    $(document).ready(function(){
+      // Add smooth scrolling to all links
+      $("a").on('click', function(event) {
+    
+        // Make sure this.hash has a value before overriding default behavior
+        if (this.hash !== "") {
+          // Prevent default anchor click behavior
+          event.preventDefault();
+    
+          // Store hash
+          var hash = this.hash;
+    
+          // Using jQuery's animate() method to add smooth page scroll
+          // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 800, function(){
+       
+            // Add hash (#) to URL when done scrolling (default click behavior)
+            window.location.hash = hash;
+          });
+        } // End if
+      });
+    });
+    </script>
+    <script>
+        const toTop = document.querySelector('.to-top')
+        window.addEventListener('scroll',() => { 
+           if(window.pageYOffset > 100){
+               toTop.classList.add('active')
+           }else {
+               toTop.classList.remove('active')
+           }
+        }) 
+    </script>
+</body>
+</html>
