@@ -21,7 +21,7 @@
         width: 100%;
     }
 }
-@media (min-width:651px) and (max-width:1024px){
+@media (min-width:651px) and (max-width:1010px){
     #header-nav {
         display: none;
     }
