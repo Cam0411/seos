@@ -398,6 +398,14 @@
     bottom: 0;
     left: 0;
 }
+.content-box-2:hover .first
+{
+    color: #e83e8c;
+}
+.content-box-2:hover .more-detail
+{
+    color: #e83e8c;
+}
 .content-box-2-about 
 {
     line-height: 28px;
@@ -421,6 +429,10 @@
     border-radius: 50%;
     color: #fff;
     margin-right: 10px;
+}
+.content-box-2:hover .arrow 
+{
+    background: #e83e8c;
 }
 #content-3 
 {
