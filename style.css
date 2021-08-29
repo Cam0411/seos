@@ -329,6 +329,7 @@
     background: #dc3545;
     border-radius: 28px;
     text-align: center;
+    font-weight: 700;
 }
 #slider img 
 {
@@ -493,6 +494,248 @@
      -moz-appearance: none !important;
      border-radius: 0;
      -webkit-border-radius:0; 
+}
+#content-4 
+{
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#content-4  img 
+{
+    width: 702px;
+    padding: 20px;
+}
+#content-4  .content-4-all-text
+{
+    padding: 20px;
+}
+#content-4 .content-4-heading
+{
+    font-size: 16px;
+    color: #e83e8c;
+    margin-bottom: 20px;
+}
+#content-4 .content-4-sec-heading 
+{
+    margin-bottom: 15px;
+    font-size: 30px;
+    line-height: 45px;
+}
+#content-4 .content-4-about 
+{
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 20px;
+}
+#content-4 .content-4-box 
+{
+    background: #eb566c;
+    border-radius: 30px;
+    width: 156px;
+    color: #fff;
+    border: 2px solid #eb566c;
+    padding: 15px;
+    text-align: center;
+    transition: 0.4s;
+    font-weight: 700;
+}
+#content-4 .content-4-box:hover 
+{
+    background: #e83e8c;
+}
+#content-5 
+{
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content-5-all-text
+{
+    padding: 20px;
+}
+.content-5-all-text .content-5-heading
+{
+    font-size: 14px;
+    color: #e83e8c;
+    margin-bottom: 20px;
+} 
+.content-5-img-box img 
+{
+    width: 196px;
+}
+.content-5-all-text .content-5-sec-heading
+{
+font-size: 30px;
+line-height: 40px;
+}
+#content-6 
+{
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content-6-height-box
+{
+    padding: 20px;
+    text-align: center;
+    background:#eb566c;
+    color: #fff;
+    height: 629px;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    margin-left: 30px;
+}
+.content-6-height-box i 
+{
+    font-size: 30px;
+    background: #fce0d8;
+    border-radius: 50%;
+    border: 2px solid #fce0d8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    padding: 20px;
+    font-weight: 900;
+    color: #dc3545;
+}
+.content-6-price 
+{
+    padding: 20px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #fff;
+    padding-bottom: 25px;
+}
+.content-6-box-about
+{
+  
+  line-height: 32px;
+  margin-bottom: 30px;
+}
+.content-6-sm-box 
+{
+    background: #fff;
+    border: 2px solid #fff;
+    color: #000;
+    border-radius: 34px;
+    font-size: 20px;
+    padding: 15px;
+    font-weight: 700;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.content-6-sm-box:hover 
+{
+    background: #dc3545;
+    color: #fff;
+    border: 2px solid #dc3545;
+}
+.top-img
+{
+    position: absolute;
+    top: 0;
+    right: 0%;
+}
+.bottom-img
+{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.content-6-all-text
+{
+    padding: 20px;
+    margin-left: 10%;
+}
+.content-6-heading
+{
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #e83e8c ;
+}
+.content-6-sec-heading
+{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.content-6-about 
+{
+    line-height: 28px;
+    margin-bottom: 20px;
+}
+.content-6-out-box
+{
+    padding: 20px;
+}
+.sm-weight-box
+{
+    display: flex;
+    border-radius: 32px;
+    align-items: center;
+    justify-content: space-between;
+    width: 100px;
+    color: #f8f5f2;
+    font-size: 16px;
+    
+}
+.red-box 
+{
+    padding: 15px;
+    border-radius: 24px 0px 0px 24px;
+    background: #dc3545;
+    font-size: 15px;
+    cursor: pointer;
+}
+.gel-box 
+{
+    padding: 15px;
+    border-radius: 0px 24px 24px 0px;
+    background: #fce0d8;
+    font-size: 15px;
+    color: #000;
+    cursor: pointer;
+}
+#content-7 
+{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.author 
+{
+    display: flex;
+    margin-bottom: 20px;
+}
+.content-7-heading 
+{
+    font-size: 12px;
+    margin-left: 20px;
+    line-height: 35px;
+    
+}
+.content-7-about 
+{
+    line-height: 28px;
+}
+.sub-heading-7
+{
+    color: #e83e8c;
+    font-size: 20px;
+}
+#content-7 .tsti 
+{
+    width:407px;
+    margin-left: 100px;
+    padding: 20px;
 }
 #footer 
 {
