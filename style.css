@@ -896,6 +896,7 @@ line-height: 40px;
 {
     height: 200px;
     background: #020230;
+    position: relative;
 }
 #footer i 
 {
@@ -908,4 +909,6 @@ line-height: 40px;
 .all-icon 
 {
     margin-left: 3%;
+    position: absolute;
+    bottom: 5%;
 }
