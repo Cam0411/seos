@@ -198,7 +198,7 @@
 }
 #content-9
 {
-    height: 1500px;
+    height: 1800px;
 }
 .content-9-box 
 {
@@ -215,6 +215,18 @@
     bottom: -10%;
     width: 195px;
     height: 150px;
+}
+#footer i 
+{
+    color: #fff;
+    font-size: 30px;
+    margin-top: 12%;
+    padding: 10px;
+   
+}
+.all-icon 
+{
+    margin-left: 3%;
 }
 }
 @media (max-width:300px)
@@ -333,6 +345,37 @@
 }
 #content-9
 {
-    height: 1500px;
+    height: 1800px;
 }
+.content-4-about 
+{
+    width: 500px;
+}
+#footer i 
+{
+    color: #fff;
+    font-size: 30px;
+    margin-top: 12%;
+    padding: 10px;
+   
+}
+.all-icon 
+{
+    margin-left: 3%;
+}
+}
+@media (min-width:1201px) 
+{
+  .content-4-about 
+  {
+      width: 400px;
+  }
+  .content-6-about 
+   {
+       width: 500px;
+   }
+   .content-7-about 
+   {
+       width: 500px;
+   }
 }

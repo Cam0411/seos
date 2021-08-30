@@ -504,7 +504,7 @@
 }
 #content-4  img 
 {
-    width: 702px;
+    width: 602px;
     padding: 20px;
 }
 #content-4  .content-4-all-text
@@ -731,6 +731,10 @@ line-height: 40px;
     color: #e83e8c;
     font-size: 20px;
 }
+.content-7-all-text 
+{
+    padding: 20px;
+}
 #content-7 .tsti 
 {
     width:407px;
@@ -892,4 +896,16 @@ line-height: 40px;
 {
     height: 200px;
     background: #020230;
+}
+#footer i 
+{
+    color: #fff;
+    font-size: 30px;
+    margin-top: 6%;
+    padding: 10px;
+   
+}
+.all-icon 
+{
+    margin-left: 3%;
 }
