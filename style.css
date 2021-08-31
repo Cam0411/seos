@@ -16,7 +16,7 @@
     display: flex;
      align-items: center;
     flex: 1;
-    z-index: 1;
+    z-index: 99999;
 }
 .header--img 
 {
@@ -124,15 +124,16 @@
 }
 .number-box 
 {
-    background: #dc3545;
+    background: none;
     border-radius: 24px;
     margin-left: 20px;
     color: #fff;
-     transition: ease-in-out 0.4s;
-}
-.number-box:hover 
-{
-   background:#e83e8c;
+    
+     position: relative;
+     border: 1px solid #eb566c;
+     cursor: pointer;
+     background: #eb566c;
+     z-index: 99999;
 }
 .header-menu 
 {
@@ -330,6 +331,7 @@
     border-radius: 28px;
     text-align: center;
     font-weight: 700;
+    z-index: 9999;
 }
 #slider img 
 {
@@ -540,6 +542,7 @@
     text-align: center;
     transition: 0.4s;
     font-weight: 700;
+    z-index: 9999;   
 }
 #content-4 .content-4-box:hover 
 {
@@ -813,6 +816,7 @@ line-height: 40px;
     padding: 10px;
     width: 40px;
     margin-left: 20px;
+
 }
 #content-9
 {
@@ -911,4 +915,36 @@ line-height: 40px;
     margin-left: 3%;
     position: absolute;
     bottom: 5%;
+}
+
+
+.heading:hover 
+{
+    color: #fff;
+}
+.number-box::before
+{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: #e83e8c;
+    z-index: -1;
+    transition: transform 0.5s;
+    transform-origin: 0 0;
+    transition-timing-function: cubic-bezier(0.5,1.6,0.4,0.7);
+    border-radius: 24px;
+
+}
+.number-box::before 
+{
+    transform: scaleX(0);
+}
+.number-box:hover::before 
+{
+    transform: scaleX(1);
 }
