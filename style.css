@@ -332,6 +332,7 @@
     text-align: center;
     font-weight: 700;
     z-index: 9999;
+    margin-left: 0%;
 }
 #slider img 
 {
@@ -543,6 +544,7 @@
     transition: 0.4s;
     font-weight: 700;
     z-index: 9999;   
+    margin-left: 0%;
 }
 #content-4 .content-4-box:hover 
 {
